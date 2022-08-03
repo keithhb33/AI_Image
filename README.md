@@ -2,8 +2,13 @@
 Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 code. The program then parses and assembles the Base64 code into 9 JPG files outputted within the same directory.
 
 <h4>Here are some examples:</h4><br /> <br />
-<p align="left">
+
+<p align="center">
   <img src="images/spongebobandpatrickjellyfishing.jpg" width="300" alt="spongepatrick">
+</p>
+
+<p align="center">
+  <img src="images/drhousetrampoline.jpg" width="300" alt="spongepatrick">
 </p>
 
 
