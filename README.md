@@ -16,5 +16,5 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 </p>
 
 <p align="center">
-  <img src="images/ai_images.JPG" width="600" alt="ai_images">
+  <img src="images/ai_files.JPG" width="600" alt="ai_images">
 </p>
