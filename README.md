@@ -3,10 +3,11 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 
 <h4>Here are some examples:</h4><br /> <br />
 
-<p float="left">
-  <img src="images/spongebobandpatrickjellyfishing.jpg" width="100" />
-  <img src="images/starrynightcubism.jpg" width="100" /> 
-  <img src="images/img3.png" width="100" />
+<p float="center">
+  <img src="images/spongebobandpatrickjellyfishing.jpg" width="200" />
+  <img src="images/starrynightcubism.jpg" width="200" /> 
+  <img src="images/riverstyx.jpg" width="200" />
+  <img src="images/satanhome.jpg" width="200" />
 </p>
 
 <p align="center">
