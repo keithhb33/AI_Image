@@ -5,7 +5,7 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 
 <p float="left">
   <img src="images/spongebobandpatrickjellyfishing.jpg" width="100" />
-  <img src="images/drhousetrampoline.jpg" width="100" /> 
+  <img src="images/starrynightcubism.jpg" width="100" /> 
   <img src="images/img3.png" width="100" />
 </p>
 
