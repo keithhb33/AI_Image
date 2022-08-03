@@ -8,11 +8,12 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
   <img src="images/starrynightcubism.jpg" width="190" /> 
   <img src="images/riverstyx.jpg" width="190" />
   <img src="images/satanhome.jpg" width="190" />
-  
   <img src="images/galaxy.jpg" width="190" />
+  
   <img src="images/starrynightcubism.jpg" width="190" /> 
   <img src="images/riverstyx.jpg" width="190" />
   <img src="images/satanhome.jpg" width="190" />
+  <img src="images/galaxy.jpg" width="190" />
   <img src="images/galaxy.jpg" width="190" />
 </p>
 
