@@ -4,7 +4,7 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 <h4>Here are some examples:</h4><br />
 
 <p float="center">
-  Spongebob and Patrick<img src="images/spongebobandpatrickjellyfishing.jpg" width="200" />
+  <img src="images/spongebobandpatrickjellyfishing.jpg" width="200" />
   <img src="images/starrynightcubism.jpg" width="200" /> 
   <img src="images/riverstyx.jpg" width="200" />
   <img src="images/satanhome.jpg" width="200" />
