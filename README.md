@@ -19,7 +19,7 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
   <img src="images/ai_files.JPG" width="600" alt="ai_images">
 </p>
 
-<h1>Usage:</h1><br/>
+<h1>Usage:</h1>
 
 from ai_images import * <br/>
 prompt = "example prompt" <br/>
