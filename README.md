@@ -22,7 +22,12 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 <h1>Usage:</h1>
 
 ```python
-from ai_images import *
+Installation:
+python3 -m pip install ai_image
+
+
+Implementation:
+from ai_image.ai_image import *
 
 prompt = "example prompt"
 ai_images(prompt)
