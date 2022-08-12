@@ -11,7 +11,7 @@ setup(
     url='https://github.com/keithhb33/AI-Image-Bot/',
     keywords='AI Images',
     install_requires=[
-          'scikit-learn',
+          'ai-image-bot',
       ],
 
 )
