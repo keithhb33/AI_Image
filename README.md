@@ -31,6 +31,6 @@ from ai_image.ai_image import *
 
 prompt = "example prompt"
 ai_images(prompt)
-#returns 9 images to directory
 
+#returns 9 images to directory
 ```
