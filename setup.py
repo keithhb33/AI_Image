@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ai_images',
-    version='0.6',
+    version='0.7',
     author="Keith Burroughs",
     author_email='keithburroughs33@gmail.com',
     packages=find_packages('src'),
