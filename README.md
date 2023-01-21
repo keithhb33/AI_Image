@@ -32,5 +32,5 @@ prompt = "example prompt"
 directory = "images/"
 
 ai_images(prompt, directory)
-#returns 9 images to directory
+#Returns 9 images to directory
 ```
