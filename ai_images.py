@@ -1,5 +1,5 @@
 import requests
-import json
+import shutil
 import base64
 
 def image(prompt):
@@ -13,7 +13,7 @@ def image(prompt):
     res = s.post(url, json=payload)
     return res.content
 
-def convert_jpg(prompt):
+def convert_jpg(prompt, directory=""):
     image_urls = str(image(prompt))
     image_urls = image_urls.replace('\\\\n', '')
 
@@ -25,7 +25,6 @@ def convert_jpg(prompt):
     c = 0
     for i in range(9):
         c+=1
-        
         chosen_image = image_list[i]
         
         imgdata = base64.b64decode(chosen_image)
@@ -33,10 +32,11 @@ def convert_jpg(prompt):
 
         with open(filename, 'wb') as f:
             f.write(imgdata)
+        if directory != "":
+          shutil.move(filename, directory + filename)
     print("success")
-
 
 #Enter a prompt for the AI
 prompt = ""
-convert_jpg(prompt)
-
+directory = ""
+convert_jpg(prompt, directory)
