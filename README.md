@@ -30,7 +30,7 @@ python3 -m pip install ai_image
 from ai_image.ai_image import ai_images
 
 prompt = "example prompt"
-directory = "images"
+directory = "images/"
 ai_images(prompt, directory)
 
 #returns 9 images to directory
