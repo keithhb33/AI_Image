@@ -25,7 +25,6 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 #Installation:
 python3 -m pip install ai_image
 
-
 #Implementation:
 from ai_image.ai_image import ai_images
 
