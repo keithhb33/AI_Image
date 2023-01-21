@@ -27,7 +27,7 @@ python3 -m pip install ai_image
 
 
 #Implementation:
-from ai_image.ai_image import *
+from ai_image.ai_image import ai_images
 
 prompt = "example prompt"
 ai_images(prompt)
