@@ -37,5 +37,3 @@ def generate_images(prompt, directory="", number_of_outputs=9):
             f.write(imgdata)
 
     print("success")
-
-
