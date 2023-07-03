@@ -13,7 +13,7 @@ def image(prompt):
     res = s.post(url, json=payload)
     return res.content
 
-def convert_jpg(prompt, directory):
+def generate_images(prompt, directory="", number_of_outputs=9):
     image_urls = str(image(prompt))
     image_urls = image_urls.replace('\\\\n', '')
 
@@ -23,20 +23,19 @@ def convert_jpg(prompt, directory):
     image_list = image_urls.split('","')
     
     c = 0
-    for i in range(9):
+    for i in range(number_of_outputs):
         c+=1
         chosen_image = image_list[i]
         
         imgdata = base64.b64decode(chosen_image)
         filename = 'output' + str(c) + '.jpg'
 
+        if directory != "":
+            filename = directory + "/output" + str(c) + '.jpg'
+
         with open(filename, 'wb') as f:
             f.write(imgdata)
-        if directory != "":
-          shutil.move(filename, directory + filename)
+
     print("success")
 
-#Enter a prompt for the AI
-prompt = ""
-directory = ""
-convert_jpg(prompt, directory)
+
