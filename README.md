@@ -26,11 +26,13 @@ Sends a request to Craiyon AI Image Generator to generate images in Base64 code 
 python3 -m pip install ai_image
 
 #Implementation:
-from ai_image.ai_image import ai_images
+from ai_image import *
 
 prompt = "example prompt"
 directory = "images/"
+num_of_images = 9
 
-ai_images(prompt, directory)
+ai_images(prompt, directory, num_of_images)
 #Returns 9 images to directory
+#Note "directory" and "num_of_images" are optional parameters (by default, directory="" and num_of_images=9).
 ```
