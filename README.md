@@ -1,4 +1,4 @@
-# AI_Image
+# AI_Images
 Sends a request to Craiyon AI Image Generator to generate images in Base64 code from a chosen prompt. The program then parses and assembles the Base64 code into JPG files.
 
 <h4>Here are some examples:</h4><br />
