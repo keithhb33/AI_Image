@@ -13,7 +13,7 @@ def image(prompt):
     res = s.post(url, json=payload)
     return res.content
 
-def convert_jpg(prompt, directory=""):
+def convert_jpg(prompt, directory):
     image_urls = str(image(prompt))
     image_urls = image_urls.replace('\\\\n', '')
 
