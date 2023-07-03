@@ -23,7 +23,7 @@ Sends a request to Craiyon AI Image Generator to generate images in Base64 code 
 
 ```python
 #Installation:
-python3 -m pip install ai_image
+python3 -m pip install ai_images
 
 #Implementation:
 from ai_image import *
