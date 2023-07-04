@@ -1,5 +1,5 @@
-# AI_Image Module
-Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 code from a chosen prompt. The program then parses and assembles the Base64 code into 9 JPG files outputted within the main directory.
+# AI_Images
+Sends a request to Craiyon AI Image Generator to generate images in Base64 code from a chosen prompt. The program then parses and assembles the Base64 code into JPG files.
 
 <h4>Here are some examples:</h4><br />
 
@@ -23,14 +23,16 @@ Sends a request to Craiyon AI Image Generator to generate 9 images in Base64 cod
 
 ```python
 #Installation:
-python3 -m pip install ai_image
+python3 -m pip install ai_images
 
 #Implementation:
-from ai_image.ai_image import ai_images
+from ai_image import *
 
 prompt = "example prompt"
-directory = "images/"
+directory = "images"
+num_of_images = 9
 
-ai_images(prompt, directory)
+ai_images(prompt, directory, num_of_images)
 #Returns 9 images to directory
+#Note "directory" and "num_of_images" are optional parameters (by default, directory="" and num_of_images=9).
 ```
