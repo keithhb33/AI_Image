@@ -1,4 +1,7 @@
 # AI_Images
+
+{DEPRECATED}
+
 Sends a request to Craiyon AI Image Generator to generate images in Base64 code from a chosen prompt. The program then parses and assembles the Base64 code into JPG files.
 
 <h4>Here are some examples:</h4><br />
@@ -32,7 +35,7 @@ prompt = "example prompt"
 directory = "images"
 num_of_images = 9
 
-ai_images(prompt, directory, num_of_images)
+generate_images(prompt, directory, num_of_images)
 #Returns 9 images to directory
 #Note "directory" and "num_of_images" are optional parameters (by default, directory="" and num_of_images=9).
 ```
